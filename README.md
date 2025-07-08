@@ -49,11 +49,7 @@ Build a **Crypto Chart Viewer app** using **React Native with Expo** that:
 - Style the app using **NativeWind**
   - How you style is up to you
 - Implement real-time or frequently updated price tracking
-- Handle state management for:
-  - The list of cryptocurrencies and prices
-  - Price alerts per crypto
-  - Notification badge state
-  - Triggered alert log
+- State management (Your choice of framework)
 - Use **TypeScript** and clean, modular code
 - The app should work smoothly on both **iOS and Android**
 
