@@ -1,6 +1,13 @@
-# 🧪 React Native Coding Challenge
+# Crypto Chart Viewer + Price Alerts
 
-## Crypto Chart Viewer + Price Alerts
+## Demo
+
+<div align="center">
+  <img src="./docs/app-demo.gif" alt="App Demo" width="300"/>
+</div>
+
+Share the download link here: [APK Download Link](https://expo.dev/artifacts/eas/jv8TS4n4AvXRSyKZFQfYrS.apk)
+
 
 ### 🔍 Overview
 
@@ -73,7 +80,51 @@ Build a **Crypto Chart Viewer app** using **React Native with Expo** that:
 
 ---
 
-## 📝 Submission Instructions
+## � Running the App
+
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+2. Start Expo:
+   ```bash
+   npx expo start
+   ```
+
+3. Run on device/simulator:
+   - iOS: press `i`
+   - Android: press `a`
+   - Or scan QR using Expo Go
+
+## 🧪 Testing
+
+Run the unit tests using:
+
+```bash
+npm test
+```
+
+To run a specific test file:
+
+```bash
+npm test -- src/store/__tests__/alertsStore.test.ts
+```
+
+## 📦 Building APK
+
+For an actual submission, generate and share the APK via EAS:
+
+```bash
+npm i -g eas-cli
+eas login
+eas build:configure
+eas build -p android --profile preview
+```
+
+---
+
+## �📝 Submission Instructions
 
 - Include an `OVERVIEW.md` with:
   - A short overview of your approach
